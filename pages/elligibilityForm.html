@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligibility Assessment </title>
+</head>
+
+<body>
+    <section>
+        <h1>Let's Find the Right Schemes for You</h1>
+
+        <p>
+            Welcome to <strong>JanSahayak</strong>.
+        </p>
+
+        <p>
+            Fill in a few basic details to discover government schemes
+            that match your profile and needs.
+        </p>
+
+        <p>
+            The process takes less than <strong>2 minutes</strong>.
+        </p>
+    </section>
+    <form action="# ">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full name </label>
+
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name " required>
+            <br><br>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <br><br>
+            <label for="gender">Gender</label>
+
+            <select name="gender" id="gender" required>
+
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label for="state">state</label>
+
+            <select id="state" name="state" required>
+                <option value="">Select State</option>
+                <option value="uttar-pradesh">Uttar Pradesh</option>
+                <option value="maharashtra">Maharashtra</option>
+                <option value="delhi">Delhi</option>
+                <option value="bihar">Bihar</option>
+            </select>
+            <br><br>
+            <label for="district">District</label>
+
+
+            <select id="district" name="district" required>
+                <option value="">Select District</option>
+            </select>
+            <br><br>
+            <label for="category">Category</label>
+            <select name="category" id="category" required>
+                <option value="general">General</option>
+                <option value="obc">OBC</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+                <option value="ews">EWS</option>
+
+
+
+            </select>
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="qualification">Qualification</label>
+            <select name="qualification" id="qualification" required>
+                <option value="">Select Highest Qualification
+                </option>
+                <option value="Below 10th">Below 10th</option>
+                <option value="10th Pass">10th Pass</option>
+                <option value="12th Pass">12th Pass</option>
+                <option value="Diploma">Diploma</option>
+                <option value="ITI">ITI</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Postgraduate">Postgraduate</option>
+                <option value="PhD">PhD</option>
+                <option value="other">Other</option>
+
+            </select>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Employment</legend>
+            <label for="employment">Employment Status</label>
+
+            <select id="employment" name="employment" required>
+
+
+                <option value="">Select Employment Status</option>
+                <option value="student">student</option>
+                <option value="unemployed">unemployed</option>
+                <option value="private sector">private sector</option>
+                <option value="public sector">public sector</option>
+                <option value="self">self-employed</option>
+                <option value="farmer">farmer</option>
+                <option value="retired">retired</option>
+                <option value="other">other</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Income Details</legend>
+
+            <label for="income">Annual Family Income</label>
+            <br>
+
+            <select id="income" name="income" required>
+                <option value="">Select Annual Family Income</option>
+                <option value="below-1-lakh">Below ₹1 Lakh</option>
+                <option value="1-3-lakh">₹1 Lakh - ₹3 Lakhs</option>
+                <option value="3-5-lakh">₹3 Lakhs - ₹5 Lakhs</option>
+                <option value="5-8-lakh">₹5 Lakhs - ₹8 Lakhs</option>
+                <option value="above-8-lakh">Above ₹8 Lakhs</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="disability">Disability Status</label>
+            <br>
+            <select id="disability" name="disability" required>
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="bpl">BPL Card Holder</label>
+            <br>
+            <select id="bpl" name="bpl" required>
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <br><br>
+
+            <label for="minority">Minority Community</label>
+            <br>
+            <select id="minority" name="minority" required>
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Declaration</legend>
+
+            <input type="checkbox" id="declaration" name="declaration" required>
+            <label for="declaration">
+                I confirm that the information provided is true to the best of my knowledge.
+            </label>
+
+            <br><br>
+
+            <button type="submit">Find Eligible Schemes</button>
+            <button type="reset">Reset Form</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
